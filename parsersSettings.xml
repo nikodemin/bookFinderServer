@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<parsers>
+    <parser>
+        <store>www.bookvoed.ru</store>
+        <searchUrl>https://www.bookvoed.ru/books?q=</searchUrl>
+        <pathToBlock>#books</pathToBlock>
+        <relPathToName>div.if div.sE</relPathToName>
+        <relPathToImg>Img.Yd</relPathToImg>
+        <relPathToPrice>div.if div.lf</relPathToPrice>
+        <relPathToAuthor>div.if div.tE</relPathToAuthor>
+        <relPathToBook>a.Xd.ee</relPathToBook>
+        <pathToISBN>table.tw tr.uw</pathToISBN>
+        <delimiter>%20</delimiter>
+    </parser>
+    <parser>
+        <store>www.spbdk.ru</store>
+        <searchUrl>https://www.spbdk.ru/search/?q=</searchUrl>
+        <pathToBlock>div.catalog div.snippet</pathToBlock>
+        <relPathToName>a.snippet__title span</relPathToName>
+        <relPathToImg>a.snippet__photo img</relPathToImg>
+        <relPathToPrice>div.snippet__price-value</relPathToPrice>
+        <relPathToAuthor>div.snippet__authors</relPathToAuthor>
+        <relPathToBook>a.snippet__photo</relPathToBook>
+        <pathToISBN>div.row div.row div.params div.params__item</pathToISBN>
+        <delimiter>+</delimiter>
+    </parser>
+    <parser>
+        <store>www.labirint.ru</store>
+        <searchUrl>https://www.labirint.ru/search/</searchUrl>
+        <pathToBlock>div.b-search-page-content div.product</pathToBlock>
+        <relPathToName>span.product-title</relPathToName>
+        <relPathToImg>a.cover img.book-img-cover</relPathToImg>
+        <relPathToPrice>span.price-val span</relPathToPrice>
+        <relPathToAuthor>div.product-author span</relPathToAuthor>
+        <relPathToBook>a.cover</relPathToBook>
+        <pathToISBN>div.isbn</pathToISBN>
+        <delimiter>%20</delimiter>
+    </parser>
+</parsers>

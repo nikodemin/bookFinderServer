@@ -1,0 +1,7 @@
+GET http://localhost:8080/getSettings
+###
+POST http://localhost:8080/getISBN
+Content-Type: text/html
+
+https://www.spbdk.ru/catalog/item-java_karmannyy_spravochnik_4_e_izdanie/|||div.row div.row div.params div.params__item
+###
